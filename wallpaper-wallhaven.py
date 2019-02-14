@@ -13,7 +13,7 @@ os.makedirs('wallpaper_wallhaven', exist_ok=True)
 
 # Log-In fuer versaute Sachen:
 def login():
-    print('NSFW braucht einen login du Schweinchen')
+    print('Einige Auflösungen brauchen einen login:')
     username = input('Benutzername eingeben: ')
     password = getpass.getpass('Password eingeben: ')
     req = requests.post('https://alpha.wallhaven.cc/auth/login', 
